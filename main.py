@@ -8,7 +8,7 @@ dotenv.load_dotenv()
 
 register_chat_agent(
     "role-agent",
-    "https://kqarhesayyvtbakgpaqr.supabase.co/functions/v1/role-agent",
+    "https://kqarhesayyvtbakgpaqr.supabase.co/functions/v1/make-server-0b50860a/role-agent",
     active=True,
     credentials=RegistrationRequestCredentials(
         agentverse_api_key=os.environ["AGENTVERSE_KEY"],
